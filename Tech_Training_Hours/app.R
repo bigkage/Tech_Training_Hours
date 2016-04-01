@@ -87,7 +87,7 @@ subtotals_filtered <- subtotals
         scale_y_continuous(breaks = NULL) +
         # scale_fill_brewer(palette="Accent") + 
         scale_fill_discrete(limits = c("Discovery", "Endeavour", "Hedden", "SLMS", "CJH", "FHS", "ESC")) 
-   }, height = 400, width = 600)
+   }, height = 500, width = 600)
    
    output$totalHours <- renderText({
      paste("Total hours of training earned by all certificated staff:", total_hours)
